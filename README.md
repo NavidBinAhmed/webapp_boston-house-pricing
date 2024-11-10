@@ -9,25 +9,34 @@
 
 
 - Create a new environment
-'''
+```
 conda create -p venv python==3.11 -y 
-'''
+```
 
 - Activate the environment
 
-'''
+```
 conda activate venv/
-'''
+```
 
 - Installing the requirements
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 - Git Configuaration between VS Code and GitHub account 
 
-'''
+```
 git config --global user.name
 git config --global user.email
-'''
+```
+
+- Commit files
+```git status```
+
+```git add . ```
+
+```git commit -m "commit includes the files"```
+
+```git push origin main```
 
