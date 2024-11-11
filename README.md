@@ -110,9 +110,11 @@ App Interface
 Predicts the price.
 
 **Deployed App Link:** [Webapp Link](http://housepriceprediction.onrender.com/)
+
 .......................................................................................................................................................................................
 
-# Procedure: ML and Webapp
+# Procedure
+## ML and Webapp
 - Create a new environment
 ```
 conda create -p venv python==3.11 -y 
@@ -153,7 +155,7 @@ git commit -m "commit includes the files"
 git push origin main
 ```
 
-# Procedure: Deployment on Render
+## Deployment on Render
 1. Picked Webservices
    
 2. Selected **'Git Public Repository'** (for privet repository, sign-in to GitHub under 'Git Provider' is required)
