@@ -1,13 +1,11 @@
 ### Boston House Pricing Prediction using Machine Learning Regression Model
 
-### Software and Tools Requirement
-
-[![Tools](https://skillicons.dev/icons?i=python,sklearn,vscode,flask,&theme=light)](https://skillicons.dev)
-
-1. [GitHub](https://github.com)
+### Tools and Software Requirement
+Tools used:
+[![Tools](https://skillicons.dev/icons?i=python,sklearn,vscode,github,flask,&theme=light)](https://skillicons.dev)
+Cloud and software used:
 2. [Render Account](https://render.com/)
 3. [VS Code IDE](https://code.visualstudio.com/)
-4. [Git CLI](https://git-scm.com/downloads)
 
 ### Dataset Information
 
