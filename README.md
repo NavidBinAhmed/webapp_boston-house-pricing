@@ -7,8 +7,8 @@ Tools used:
 
 Cloud and software used:
 
-2. [Render Account](https://render.com/)
-3. [VS Code IDE](https://code.visualstudio.com/)
+1. [Render Account](https://render.com/)
+2. [VS Code IDE](https://code.visualstudio.com/)
 
 ### Dataset Information
 
