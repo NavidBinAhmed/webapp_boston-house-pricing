@@ -109,7 +109,7 @@ App Interface
 
 Predicts the price.
 
-**Deployed App Link:** [Webapp Link](https://housepriceprediction-tqf3.onrender.com)/)
+**Deployed App Link:** [Webapp Link](https://housepriceprediction-tqf3.onrender.com)
 
 .......................................................................................................................................................................................
 
