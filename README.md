@@ -178,3 +178,16 @@ gunicorn flask_app:app
 
 8. Select Subscription Plan, **Free** in my case
 9. Click **Deploy Web Service**
+
+
+## Error Handling
+1. The deploy was failing with an error message:
+   ```
+   Getting requirements to build wheel: finished with status 'error'
+   error: subprocess-exited-with-error
+   ```
+- **Added** 'wheel' and **modified** 'scikit-learn' instead of 'sklearn' in the requirements.txt file
+
+2. The flask_app.py file was having error with importing 'numpy' package
+- **Switched** to the environment activated for the project instead of the default/ old environment.
+  This error occured as environemnt where the VS Code was running on was unable to access the packages installed.
