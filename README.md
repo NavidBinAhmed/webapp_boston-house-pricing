@@ -99,7 +99,7 @@ Model expects to work well, and to make it guaranteed, let's have a look at the:
   Here, Adjusted R-Squared is less than R-Squared. Which is expected and looks good.
 
   
-### New data prediction : Testing
+### New data prediction : Deployed App Testing
 
 ![prediction_webapp](https://github.com/user-attachments/assets/e8b25128-e102-48db-a184-cb4e50bfc26b)
 
@@ -108,9 +108,11 @@ App Interface
 ![prediction_results](https://github.com/user-attachments/assets/774289d8-229c-4c88-8c39-54d0d493cef8)
 
 Predicts the price.
+
+**Deployed App Link:** [Webapp Link](http://housepriceprediction.onrender.com/)
 .......................................................................................................................................................................................
 
-# Procedure
+# Procedure: ML and Webapp
 - Create a new environment
 ```
 conda create -p venv python==3.11 -y 
@@ -151,3 +153,26 @@ git commit -m "commit includes the files"
 git push origin main
 ```
 
+# Procedure: Deployment on Render
+1. Picked Webservices
+   
+2. Selected **'Git Public Repository'** (for privet repository, sign-in to GitHub under 'Git Provider' is required)
+   
+3. Next, picked a **Name** as URL, and Python 3 as **Language*
+   
+4. **Branch** is main and **Region** is Oregon as default
+   
+5. Keep **Root Directory** as it is, it will redirect from GitHub
+    
+6. **Build Command**
+```
+pip install -r requirements.txt
+```
+
+7. **Start Command** ( gunicorn app_name_used_as_.py_file:app )
+```
+gunicorn flask_app:app
+```
+
+8. Select Subscription Plan, **Free** in my case
+9. Click **Deploy Web Service**
