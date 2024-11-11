@@ -37,11 +37,19 @@ git config --global user.email
 ```
 
 - Commiting files
-```git status```
+```
+git status
+```
 
-```git add . ```
+```
+git add . 
+```
 
-```git commit -m "commit includes the files"```
+```
+git commit -m "commit includes the files"
+```
 
-```git push origin main```
+```
+git push origin main
+```
 
