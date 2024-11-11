@@ -100,11 +100,12 @@ Model expects to work well, and to make it guaranteed, let's have a look at the:
 
   
 ### New data prediction : Testing
-![prediction_webapp](https://github.com/user-attachments/assets/a541af41-b13b-44da-8b38-42e7d208e398)
 
-HTML View
+![prediction_webapp](https://github.com/user-attachments/assets/e8b25128-e102-48db-a184-cb4e50bfc26b)
 
-![prediction_results](https://github.com/user-attachments/assets/93d3b72e-3a61-4772-bd3f-219510aab101)
+App GUI
+
+![prediction_results](https://github.com/user-attachments/assets/7c468cac-6b17-4146-ba93-0533262f75d2)
 
 Predicts the price.
 .......................................................................................................................................................................................
