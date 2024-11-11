@@ -3,8 +3,8 @@ from flask import Flask, request, app, jsonify, url_for, render_template
 import numpy as np
 
 app = Flask(__name__)
-regmodel = pickle.load(open('regmodel.pkl', 'rb'))
-scalar = pickle.load(open('scaling.pkl', 'rb'))
+regmodel = pickle.load(open('model_lr_house.pkl', 'rb'))
+scalar = pickle.load(open('std_scaling.pkl', 'rb'))
 
 @app.route('/')
 def home():
