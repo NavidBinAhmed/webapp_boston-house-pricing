@@ -1,6 +1,9 @@
 ### Boston House Pricing Prediction using Machine Learning Regression Model
 
 ### Software and Tools Requirement
+
+[![Tools](https://skillicons.dev/icons?i=python,sklearn,vscode,flask,&theme=light)](https://skillicons.dev)
+
 1. [GitHub](https://github.com)
 2. [Render Account](https://render.com/)
 3. [VS Code IDE](https://code.visualstudio.com/)
@@ -33,8 +36,8 @@
     :Missing Attribute Values: None
 
 
-### Observations & Prediction
-# Observations
+# Observations & Prediction
+### Observations
 1. Pirplot
    ![pairplot](https://github.com/user-attachments/assets/9bb25c91-38e1-40e0-934b-3bcb1dc819e5)
 
@@ -62,7 +65,7 @@ There should have some relationships of linearity, either positively or negative
 6. ![PTRATIO_Price](https://github.com/user-attachments/assets/dff4ccfb-d6af-4cc4-8116-88bb780ab04a)
 **Some negative corralation exist with inverse relationship. While PTRATIO increases price decresease.**
 
-# Predictions
+### Predictions
 ![pred_model](https://github.com/user-attachments/assets/f675aff2-4e32-4919-893d-1800ddf302b6)
 **Prediction model is linear, so the model expects to perform well (y_test vs prediction)**
 
@@ -73,7 +76,7 @@ There should have some relationships of linearity, either positively or negative
 **scatter plot with respect to prediction and residulas. Uniform distribution.**
 
 Model expects to work well, and to make it guaranteed, let's have a look at the:
-# Performance Metrix
+### Performance Metrics
 - MAE: 3.162709871457406
 - MSE: 21.517444231177212
 - RMSE: 4.638689926172821
@@ -90,7 +93,7 @@ HTML View
 Predicts the price.
 .......................................................................................................................................................................................
 
-### Procedure
+# Procedure
 - Create a new environment
 ```
 conda create -p venv python==3.11 -y 
