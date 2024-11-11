@@ -2,8 +2,11 @@
 
 ### Tools and Software Requirement
 Tools used:
+
 [![Tools](https://skillicons.dev/icons?i=python,sklearn,vscode,github,flask,&theme=light)](https://skillicons.dev)
+
 Cloud and software used:
+
 2. [Render Account](https://render.com/)
 3. [VS Code IDE](https://code.visualstudio.com/)
 
