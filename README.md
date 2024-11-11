@@ -103,9 +103,9 @@ Model expects to work well, and to make it guaranteed, let's have a look at the:
 
 ![prediction_webapp](https://github.com/user-attachments/assets/e8b25128-e102-48db-a184-cb4e50bfc26b)
 
-App GUI
+App Interface
 
-![prediction_results](https://github.com/user-attachments/assets/7c468cac-6b17-4146-ba93-0533262f75d2)
+![prediction_results](https://github.com/user-attachments/assets/774289d8-229c-4c88-8c39-54d0d493cef8)
 
 Predicts the price.
 .......................................................................................................................................................................................
