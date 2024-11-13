@@ -1,5 +1,5 @@
 ### Boston House Pricing Prediction using Machine Learning Regression Model
-Following 13 parameters related to city-dwelling, the model predicts the prices for new house based on the user preferances.
+Following 13 parameters related to city-dwelling, the model predicts the prices for new house based on the user preferences.
 
 ### Tools and Software Requirement
 Tools used:
