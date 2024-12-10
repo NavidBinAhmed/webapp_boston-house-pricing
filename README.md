@@ -117,6 +117,7 @@ Predicts the price.
 # Procedure
 ## ML and Webapp
 - Create a new environment
+- conda
 ```
 conda create -p venv python==3.11 -y 
 ```
@@ -125,6 +126,14 @@ conda create -p venv python==3.11 -y
 
 ```
 conda activate venv/
+```
+
+- for python (vs code terminal)
+```
+python3 -m venv evn_name
+```
+```
+source evn_name/bin/activate
 ```
 
 - Installing the requirements
