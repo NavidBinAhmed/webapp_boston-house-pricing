@@ -117,7 +117,7 @@ Predicts the price.
 # Procedure
 ## ML and Webapp
 - Create a new environment
-- conda
+- conda create -p means the venv environment is created within the specified folder location
 ```
 conda create -p venv python==3.11 -y 
 ```
