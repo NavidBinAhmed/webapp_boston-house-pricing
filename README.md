@@ -1,4 +1,4 @@
-### Boston House Pricing Prediction using Machine Learning Regression Model
+### End-to-End Boston House Pricing Prediction using Machine Learning Regression Model and RESTful API
 Following 13 parameters related to city-dwelling, the model predicts the prices for new house based on the user preferences.
 
 ### Tools and Software Requirement
