@@ -73,7 +73,7 @@ There should have some relationships of linearity, either positively or negative
 
 6. ![PTRATIO_Price](https://github.com/user-attachments/assets/dff4ccfb-d6af-4cc4-8116-88bb780ab04a)
 
-**Some negative corralation exist with inverse relationship. While PTRATIO increases price decresease.**
+**Some negative corralation exist with inverse relationship. While PTRATIO increases price decreases.**
 
 
 ### Prediction
@@ -87,7 +87,7 @@ There should have some relationships of linearity, either positively or negative
 
 ![pred and res](https://github.com/user-attachments/assets/e878213d-2bb6-450c-bf7a-3749e40bfdfe)
 
-**scatter plot with respect to prediction and residulas. Uniform distribution.**
+**Scatter plot with respect to prediction and residulas. Uniform distribution.**
 
 Model expects to work well, and to make it guaranteed, let's have a look at the:
 ### Performance Metrics
