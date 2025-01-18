@@ -31,7 +31,7 @@ def predict():
     return render_template("home.html", prediction_text="The Tentative Price for House is US$ {}K".format(output))
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=False)
 
 
 
