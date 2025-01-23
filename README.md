@@ -114,7 +114,7 @@ Predicts the price.
 
 .......................................................................................................................................................................................
 
-# Procedure
+# Procedure (common for any projects)
 ## ML and Webapp
 - Create a new environment
 - conda create -p means the venv environment is created within the specified folder location
@@ -128,7 +128,7 @@ conda create -p venv python==3.11 -y
 conda activate venv/
 ```
 
-- for python (vs code terminal)
+- for python (vs code terminal, specifically for webapp development)
 ```
 python3 -m venv evn_name
 ```
